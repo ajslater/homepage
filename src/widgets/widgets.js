@@ -4,6 +4,7 @@ import autobrr from "./autobrr/widget";
 import bazarr from "./bazarr/widget";
 import changedetectionio from "./changedetectionio/widget";
 import cloudflared from "./cloudflared/widget";
+import codex from "./codex/widget";
 import coinmarketcap from "./coinmarketcap/widget";
 import deluge from "./deluge/widget";
 import diskstation from "./diskstation/widget";
@@ -79,6 +80,7 @@ const widgets = {
   bazarr,
   changedetectionio,
   cloudflared,
+  codex,
   coinmarketcap,
   deluge,
   diskstation,

@@ -7,6 +7,7 @@ const components = {
   bazarr: dynamic(() => import("./bazarr/component")),
   changedetectionio: dynamic(() => import("./changedetectionio/component")),
   cloudflared: dynamic(() => import("./cloudflared/component")),
+  codex: dynamic(() => import("./codex/component")),
   coinmarketcap: dynamic(() => import("./coinmarketcap/component")),
   deluge: dynamic(() => import("./deluge/component")),
   diskstation: dynamic(() => import("./diskstation/component")),
