@@ -24,7 +24,7 @@ export default function Component({ service }) {
     );
   }
 
-  const groups = data.groups;
+  const { groups } = data;
 
   return (
     <Container service={service}>
